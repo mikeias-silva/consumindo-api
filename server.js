@@ -14,7 +14,7 @@ app.get('/', async function (req, res) {
         // console.log(response)
 
         // const data = response.data
-
+        const datas = 1
         return res.json(data)
     } catch (error) {
         console.error(error)
